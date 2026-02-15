@@ -11,28 +11,28 @@
   --color-popover: hsl(0 0% 100%);
   --color-popover-foreground: hsl(0 0% 20%);
   
-  --color-primary: hsl(350 40% 40%); /* Deep Elegant Red/Maroon */
-  --color-primary-foreground: hsl(0 0% 98%);
+  --color-primary: hsl(45 93% 47%); /* Rich Metallic Gold */
+  --color-primary-foreground: hsl(0 0% 10%); /* Dark text on gold */
   
-  --color-secondary: hsl(40 30% 90%); /* Light Gold/Beige */
+  --color-secondary: hsl(40 30% 95%); /* Very Light Gold/Beige */
   --color-secondary-foreground: hsl(0 0% 20%);
   
   --color-muted: hsl(40 10% 94%);
   --color-muted-foreground: hsl(0 0% 45%);
   
-  --color-accent: hsl(40 40% 96%); /* Very light gold accent */
+  --color-accent: hsl(45 60% 90%); /* Light gold accent */
   --color-accent-foreground: hsl(0 0% 20%);
   
   --color-destructive: hsl(0 84% 60%);
   --color-destructive-foreground: hsl(0 0% 98%);
   
-  --color-border: hsl(40 10% 90%);
+  --color-border: hsl(45 40% 80%);
   --color-input: hsl(40 10% 90%);
-  --color-ring: hsl(350 40% 40%);
+  --color-ring: hsl(45 93% 47%);
   
   --radius: 0.25rem;
   
-  --font-serif: "Cormorant Garamond", serif;
+  --font-serif: "Cinzel", serif;
   --font-sans: "Lato", sans-serif;
 }
 
