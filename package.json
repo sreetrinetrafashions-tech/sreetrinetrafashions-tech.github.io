@@ -9,8 +9,11 @@
     "build": "tsx script/build.ts",
     "start": "NODE_ENV=production node dist/index.cjs",
     "check": "tsc",
-    "db:push": "drizzle-kit push"
+    "db:push": "drizzle-kit push",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist/public"
   },
+  "homepage": "https://sriumadevitours.github.io/sreetrinetrafashions",
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",
@@ -77,9 +80,6 @@
     "zod-validation-error": "^3.4.0"
   },
   "devDependencies": {
-
-
-
     "@tailwindcss/vite": "^4.1.14",
     "@types/connect-pg-simple": "^7.0.3",
     "@types/express": "^5.0.0",
@@ -94,6 +94,7 @@
     "autoprefixer": "^10.4.21",
     "drizzle-kit": "^0.31.4",
     "esbuild": "^0.25.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.20.5",
