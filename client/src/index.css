@@ -2,37 +2,42 @@
 @import "tw-animate-css";
 
 @theme inline {
-  --color-background: hsl(40 20% 98%); /* Soft Creamy White */
-  --color-foreground: hsl(0 0% 20%); /* Soft Charcoal Black */
-  
+  --color-background: hsl(40 20% 98%);
+  /* Soft Creamy White */
+  --color-foreground: hsl(0 0% 20%);
+  /* Soft Charcoal Black */
+
   --color-card: hsl(0 0% 100%);
   --color-card-foreground: hsl(0 0% 20%);
-  
+
   --color-popover: hsl(0 0% 100%);
   --color-popover-foreground: hsl(0 0% 20%);
-  
-  --color-primary: hsl(45 93% 47%); /* Rich Metallic Gold */
-  --color-primary-foreground: hsl(0 0% 10%); /* Dark text on gold */
-  
-  --color-secondary: hsl(40 30% 95%); /* Very Light Gold/Beige */
+
+  --color-primary: hsl(350 40% 40%);
+  /* Deep Elegant Red/Maroon */
+  --color-primary-foreground: hsl(0 0% 98%);
+
+  --color-secondary: hsl(40 30% 90%);
+  /* Light Gold/Beige */
   --color-secondary-foreground: hsl(0 0% 20%);
-  
+
   --color-muted: hsl(40 10% 94%);
   --color-muted-foreground: hsl(0 0% 45%);
-  
-  --color-accent: hsl(45 60% 90%); /* Light gold accent */
+
+  --color-accent: hsl(40 40% 96%);
+  /* Very light gold accent */
   --color-accent-foreground: hsl(0 0% 20%);
-  
+
   --color-destructive: hsl(0 84% 60%);
   --color-destructive-foreground: hsl(0 0% 98%);
-  
-  --color-border: hsl(45 40% 80%);
+
+  --color-border: hsl(40 10% 90%);
   --color-input: hsl(40 10% 90%);
-  --color-ring: hsl(45 93% 47%);
-  
+  --color-ring: hsl(350 40% 40%);
+
   --radius: 0.25rem;
-  
-  --font-serif: "Cinzel", serif;
+
+  --font-serif: "Cormorant Garamond", serif;
   --font-sans: "Lato", sans-serif;
 }
 
@@ -40,10 +45,17 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-serif;
   }
 }
