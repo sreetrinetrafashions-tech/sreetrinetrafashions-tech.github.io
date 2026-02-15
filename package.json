@@ -13,7 +13,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist/public"
   },
-  "homepage": "https://sreetrinetrafashions.com",
+  "homepage": "https://sriumadevitours.github.io/sreetrinetrafashions",
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",
